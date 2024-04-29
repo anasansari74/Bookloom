@@ -1,3 +1,30 @@
+*Project plan*
+
+Technologies
+	- C sharp
+	- .Net 6 + Postgres for backend
+	- WPF for frontend
+	- MVVM design ( frameworks: PRISMlibrary.com )
+	- SOLID principles
+	- Unit tests on XUnit
+	- Normalisation for db
+	- Plurilsite
+	- Docker
+
+Wireframes
+	- Customer books page 
+	- Customer Purchase modal
+	- Admin Sales page
+MVP's
+	- Frontend:
+		
+	- Backend:
+
+Stretch goals
+	- CICD
+
+-----------------------------------------------------------------------------------
+
 Q) 
 Differences between Git and Github?
 
