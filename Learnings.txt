@@ -1,33 +1,38 @@
-*Project plan*
-
-Technologies
-	- C sharp
-	- .Net 6 + Postgres for backend
-	- WPF for frontend
-	- MVVM design ( frameworks: PRISMlibrary.com )
-	- SOLID principles
-	- Unit tests on XUnit
-	- Normalisation for db
-	- Plurilsite
-	- Docker
-
-Wireframes
-	- Customer books page 
-	- Customer Purchase modal
-	- Admin Sales page
-MVP's
-	- Frontend:
-		
-	- Backend:
-
-Stretch goals
-	- CICD
-
------------------------------------------------------------------------------------
-
 Q) 
 Differences between Git and Github?
 
 A) 
 I thought they were 2 different things but from what I've read, Github is just a platform which was built around Git to host its repositories with some additional features.
 Git is the main piece of the puzzle. It is a "distributed" version control system. What does that mean? It is a software tool that allows you to do things to your files: - Track changes - Maintain History - Collaborate - Backup
+
+Q)
+Explain OOP briefly in terms of .NET development?
+
+A)
+Object-Oriented Programming is a programming structure/model that revolves around the concept of objects.
+
+	- Class: A class is a blueprint that defines the structure and behavior of objects.
+	- Objects: An object is an instance of a class. It represents a tangible entity entities in the application
+
+Key principles: 
+	- Encapsulation:
+		.NET provides access modifiers like public, private, protected, and internal to control the visibility and accessibility of class members. This promotes encapsulation, where the internal state of an object is hidden and can only be accessed through well-defined interfaces.
+	- Inheritance: 
+		.NET supports inheritance, allowing classes to inherit properties and methods from a base class. This promotes code reuse and enables the creation of class hierarchies.
+	- Polymorphism:
+		.NET facilitates polymorphism, where objects can take on different forms based on their context. This is achieved through method overriding and method overloading, allowing flexibility in how objects behave.
+			- Compile-time polymorphism: 
+				Achieved through method overloading, where multiple methods in the same class have the same name but different parameters.
+			- Run-time polymorphism: 
+				Achieved through method overriding, where a method in a subclass has the same name, return type, and parameters as a method in its superclass, allowing the subclass to provide its own implementation.
+
+Benefits:
+	- OOP in .NET promotes modular, maintainable, and scalable code by facilitating code reuse, abstraction, and separation of concerns. It enables developers to build robust and flexible software solutions that can evolve over time.
+
+.NET specific featrues:
+	Attributes and Reflection: 
+		- Attributes are metadata tags that provide additional information about types and members at runtime. Reflection allows you to inspect and manipulate types, members, and metadata dynamically at runtime.
+	Delegates and Events: 
+		- Delegates are type-safe function pointers that allow for method encapsulation and callback mechanisms. Events provide a way for objects to communicate and respond to actions or state changes asynchronously.
+	LINQ (Language Integrated Query): 
+		- LINQ is a set of language extensions in .NET that provides a unified query syntax for querying various data sources (such as collections, databases, XML) using a SQL-like syntax directly within C# or VB.NET code.

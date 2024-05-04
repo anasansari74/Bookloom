@@ -1,0 +1,28 @@
+Technologies
+	- C sharp
+	- .Net 6 + Postgres for backend
+	- WPF for frontend
+	- MVVM design ( frameworks: PRISMlibrary.com )
+	- SOLID principles
+	- Unit tests on XUnit
+	- Normalisation for db
+	- pluralsight.com/pricing/skills -Learning resourse
+	- Docker
+
+Wireframes
+	- Admin books page (i.e. Admin can make changes to the book’s details, inventory management etc.)
+	- Customer Purchase modal
+	- Customer Sales page (Anyone can use the point-of-sale interface to sell the books)
+MVP's
+	- Frontend:
+		
+	- Backend:
+
+Stretch goals
+	- CICD
+
+Standards
+	- Naming conventions:
+		- camelCasing for parameters
+		- PascalCasing for all other identifiers
+
