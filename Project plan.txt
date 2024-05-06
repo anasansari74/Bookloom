@@ -1,25 +1,41 @@
 Technologies
-	- C sharp
-	- .Net 6 + Postgres for backend
-	- WPF for frontend
-	- MVVM design ( frameworks: PRISMlibrary.com )
-	- SOLID principles
-	- Unit tests on XUnit
-	- Normalisation for db
-	- pluralsight.com/pricing/skills -Learning resourse
-	- Docker
+	- C#
+	- .NET 6 with Postgres for backend data storage
+	- WPF for frontend development
+	- MVVM design pattern, utilizing the PRISM framework (found at prismlibrary.com)
+	- Adherence to SOLID principles
+	- Unit testing on XUnit
+	- Database normalization for efficient data storage
+	- Learning resources from pluralsight.com/pricing/skills
+	- Docker for containerization
 
 Wireframes
-	- Admin books page (i.e. Admin can make changes to the book’s details, inventory management etc.)
-	- Customer Purchase modal
-	- Customer Sales page (Anyone can use the point-of-sale interface to sell the books)
+	- Admin books page 
+		- Allows administrators to manage book details, inventory, etc.
+
+	- Customer Sales page 
+		- Provides a point-of-sale interface for selling books.
+
 MVP's
 	- Frontend:
+		- Customer Sales page
+			- Header containing title and logo
+			- Body
+				- Books displayed in rows and columns
+				- Each book accompanied by a picture, title, and quantity values
+				- Buy button for each book
+		
+		Admin books page
+			- Header ( containing title and showing this is for authorized personal only )
+			- Body
+				- Display of all books
+				- Edit button for each book
+				- "Add Book" option at the bottom of the page
 		
 	- Backend:
 
 Stretch goals
-	- CICD
+	- Continuous Integration/Continuous Deployment (CICD) pipeline setup.
 
 Standards
 	- Naming conventions:
