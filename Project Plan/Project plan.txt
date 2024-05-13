@@ -1,4 +1,5 @@
 Technologies
+
 	- C#
 	- .NET 6 with Postgres for backend data storage
 	- WPF for frontend development
@@ -9,14 +10,27 @@ Technologies
 	- Learning resources from pluralsight.com/pricing/skills
 	- Docker for containerization
 
-Wireframes
-	- Admin books page 
-		- Allows administrators to manage book details, inventory, etc.
+-----------------------------------------------------------------------
 
-	- Customer Sales page 
-		- Provides a point-of-sale interface for selling books.
+Wireframes
+
+	- Admin Books: 
+		- Filter, edit, and add books with authorization notification.
+	Admin Transactions: 
+		- View and filter transactions with authorization notification.
+	Admin login Modal:
+		- Login form that validates admin credentials
+	Customer Sales: 
+		- Browse and add books to basket, with admin access option.
+	Customer Basket: 
+		- Manage items in basket.
+
+## Detailed wireframes written and drawn in seperate file and directory for better organization and accessiblity
+
+-----------------------------------------------------------------------
 
 MVP's
+
 	- Frontend:
 		- Customer Sales page
 			- Header containing title and logo
@@ -34,10 +48,17 @@ MVP's
 		
 	- Backend:
 
+-----------------------------------------------------------------------
+
 Stretch goals
+
 	- Continuous Integration/Continuous Deployment (CICD) pipeline setup.
+	- Add genre's to books
+
+-----------------------------------------------------------------------
 
 Standards
+
 	- Naming conventions:
 		- camelCasing for parameters
 		- PascalCasing for all other identifiers
