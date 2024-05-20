@@ -1,0 +1,21 @@
+Dynamic programming (DP) is an optimization technique used to solve problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid redundant computations.
+
+Dynamic programming is a method for solving complex problems by dividing them into smaller subproblems, solving each subproblem just once, and storing their solutions. This approach avoids the need to recompute the solution every time the subproblem recurs.
+
+In the Fibonacci sequence, each number is the sum of the two preceding ones. A naive recursive approach would have an exponential time complexity (O(2^n)), because it recomputes the same values many times. Using dynamic programming, we store the results of each Fibonacci number once computed, reducing the time complexity to O(n)."
+
+Recursion
+
+Recursion involves a function calling itself to solve a smaller part of the problem until it reaches a base case, which is a condition where the problem can be solved without further recursion.
+
+The naive recursive solution for Fibonacci has exponential time complexity (O(2^n)), because it recalculates the same values multiple times. This is where dynamic programming can optimize the solution by storing previously computed results
+
+Recursion is a powerful tool in a programmer's toolkit, especially when dealing with problems that can be naturally broken down into smaller, similar subproblems. However, it's important to be mindful of its limitations and consider alternative approaches, such as dynamic programming, when dealing with performance-critical applications.
+
+Cache dictionaries
+
+A cache dictionary stores the results of function calls, where the keys are the function inputs, and the values are the corresponding outputs. When the function is called again with the same inputs, it can return the cached result instead of recomputing it.
+
+Reduces the time complexity from O(2^n) to O(n) for the Fibonacci sequence by avoiding duplicate calculations.
+
+Cache dictionaries (memoization) are a simple yet powerful technique to optimize recursive functions. By storing and reusing the results of expensive function calls, they significantly improve the performance and efficiency of algorithms, making them a crucial tool in a programmer's arsenal.

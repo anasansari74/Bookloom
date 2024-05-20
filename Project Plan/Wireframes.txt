@@ -12,6 +12,8 @@
         - Quantity display
         - AddBook Button
 
+----------------------------------------------------------------------
+
 - Admin transactions page:
 
     - Header 
@@ -22,11 +24,14 @@
         - Display a list of transactions with ID, date, books sold, total amount for each
         - Filter transactions by date or specific book
 
+----------------------------------------------------------------------
+
 - Admin Login Modal:
 
     - A modal interface prompting for username and password authentication.
     - Upon successful login, directs users to the Admin Books Page.
     
+----------------------------------------------------------------------
 
 - Customer Sales page:
 
@@ -41,6 +46,8 @@
             - Image
             - Price
             - "Add to Basket" button 
+
+----------------------------------------------------------------------
 
 - Customer Basket page:
 
