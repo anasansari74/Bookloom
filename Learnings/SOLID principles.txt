@@ -1,0 +1,36 @@
+SOLID principles
+
+SRP Single Responsibility Principle 
+
+- A class should have one job/responsibility
+
+- If a class has more than one job, it becomes more difficult to change and maintain because changes to one reponsibilty might affect the other
+- e.g. A class 'Invoice' should handle invoice details, but it should not be responsible for saving invoices to the database. Instead, a separate 'InvoiceRepository' class should handle database operations.
+
+OCP Open Closed Principle 
+
+- Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+
+- You should be able to extend a class's behavior without modifying the existing code (inheritance and polymorphism)
+- e.g. Instead of modifying a PaymentProcessor class to handle new types of payments, you could create new classes that inherit from PaymentProcessor and implement the new payment types.
+
+LSP Liskov Substitution Priniciple 
+
+- Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+
+- Subclasses should extend the behavior of the superclass without changing its expected behavior. This means that the subclass should be able to stand in for the superclass and function correctly.
+-  e.g. If you have a class Bird with a method fly(), and a subclass Penguin that can't fly, then Penguin should not inherit from Bird. Instead, a different hierarchy might be needed.
+
+ISP Integration Segregation Principle
+
+- Clients should not be forced to depend on interfaces they do not use.
+
+- Instead of having a large, bloated interface, it's better to have several smaller, specific interfaces.
+- e.g. If you have an interface Worker with methods work() and eat(), and a class Robot that implements Worker but doesn't need eat(), then Worker should be split into two interfaces: Workable and Eatable.
+
+DIP Dependency Inversion Principle
+
+- High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+
+- This principle aims to reduce the coupling between high-level and low-level modules. By depending on abstractions (e.g., interfaces), the high-level modules are less affected by changes in low-level modules.
+- e.g. Instead of a FileReader class depending directly on a LocalFile class, it could depend on a FileSource interface. This way, FileSource can have different implementations, like LocalFile, RemoteFile, etc., without changing the FileReader class.
