@@ -32,18 +32,25 @@ Wireframes
 MVP's
 
 	- Frontend:
-		- Customer Sales page
+		- Customer 
 			- Header containing title and logo
-			- Body
+			- Sales page
 				- Books displayed in rows and columns
-				- Each book accompanied by a picture, title, and quantity values
-				- Buy button for each book
+				- Option to filter books by name
+				- Each book accompanied by a picture, title, and price
+				- Add to basket button for each book
+			-Modal
+				- When a customer selects add to basket button, a modal will appear asking the quantity and confirmation to move to basket
+			- Basket page
+				- Shows all selected books and a button at the bottom whihc is confirm purchase
 		
-		Admin books page
-			- Header ( containing title and showing this is for authorized personal only )
+		Admin
+			- Header ( containing title and and log in button )
 			- Body
-				- Display of all books
-				- Edit button for each book
+				- Display of all books in tabular format
+				- Edit button for each book which:
+					- Can only be done by the "super admin"
+					- Opens book details in the same table
 				- "Add Book" option at the bottom of the page
 		
 	- Backend:
