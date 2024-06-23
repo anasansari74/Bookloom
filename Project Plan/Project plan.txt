@@ -29,6 +29,25 @@ Wireframes
 
 -----------------------------------------------------------------------
 
+Data Model
+
+	Book: 
+		book_id, book_title, book_image, book_price
+
+	Inventory:
+		inventory_id, book_id, quantity
+	
+	Transaction:
+		transaction_id, transaction_date, total_amount
+
+	TransactionItem:
+		transaction_item_id, book_id, transaction_id, book_title, book_price, quantity_sold
+
+	Admin:
+		admin_id, username, password, email, role
+
+-----------------------------------------------------------------------
+
 MVP's
 
 	- Frontend:
@@ -46,14 +65,42 @@ MVP's
 		
 		Admin
 			- Header ( containing title and and log in button )
-			- Body
+			- books
 				- Display of all books in tabular format
 				- Edit button for each book which:
 					- Can only be done by the "super admin"
 					- Opens book details in the same table
 				- "Add Book" option at the bottom of the page
+			- transactions
+				- Display of all transactions in tabular format
+				- Filter options to search by date, id or book_title
 		
 	- Backend:
+
+		Books
+			Get all books: GET request '/api/books'
+			Get book by id: GET request '/api/books/{id}'
+			Get book by name: GET request '/api/books/{name}'
+
+			Update book: PUT request '/api/books/{id}' | authorization: Admin only with "super admin" checks
+			Delete book: DELETE request '/api/books/{id}' | authorization: Admin only with "super admin" checks
+			Add book: POST request '/api/books' | authorization: Admin only with "super admin" checks
+
+		Inventory
+			Get inventory by book id: GET request '/api/inventory/book/{bookId}
+			Update inventory: PUT request '/api/inventory/book/{bookId} | authorization: Admin only
+
+		Transactions
+			Get all transactions: GET request '/api/transactions' | authorization: Admin only
+			Get transaction by id: GET request '/api/transactions/{id}' | authorization: Admin only
+			Get transaction by date: GET request '/api/transactions/{date}' | authorization: Admin only
+			Get transaction with a specific book: GET request '/api/transactions/{bookTitle}' | authorization: Admin only
+
+		Admin
+			Get all admins: GET request 'api/admins'  | authorization: Super admin only
+			Add new admin: POST request 'api/admins'  | authorization: Super admin only
+			Update admin: PUT request 'api/admins'  | authorization: Super admin only
+			Delete admin: DELETE request 'api/admins'  | authorization: Super admin only
 
 -----------------------------------------------------------------------
 
