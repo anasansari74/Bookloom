@@ -93,10 +93,11 @@ MVP's
 		Transactions
 			Get all transactions: GET request '/api/transactions' | authorization: Admin only
 			Get transaction by id: GET request '/api/transactions/{id}' | authorization: Admin only
-			Get transaction by date: GET request '/api/transactions/{date}' | authorization: Admin only
-			Get transaction with a specific book: GET request '/api/transactions/{bookTitle}' | authorization: Admin only
+			Get transactions by date: GET request '/api/transactions/{date}' | authorization: Admin only
+			Get transactions with a specific book: GET request '/api/transactions/{bookTitle}' | authorization: Admin only
 
 		Admin
+			Get admin by id: GET request '/api/admins/{id}' | authorization: Admin only
 			Get all admins: GET request 'api/admins'  | authorization: Super admin only
 			Add new admin: POST request 'api/admins'  | authorization: Super admin only
 			Update admin: PUT request 'api/admins'  | authorization: Super admin only
