@@ -14,7 +14,7 @@ namespace Server
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Server.Configuration.Startup>(); // Update namespace here
+                    webBuilder.UseStartup<Server.Configuration.Startup>();
                 });
     }
 }
