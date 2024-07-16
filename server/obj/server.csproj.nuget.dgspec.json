@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj": {}
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj": {
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj",
+        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
         "packagesPath": "C:\\Users\\anas_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\obj\\",
+        "outputPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anas_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

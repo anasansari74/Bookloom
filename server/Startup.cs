@@ -1,4 +1,4 @@
-namespace Server.Configuration
+namespace Server
 {
     public class Startup
     {
