@@ -1,4 +1,4 @@
-namespace Server.Models
+namespace Server.DataModels
 {
     public class TransactionItem
     {

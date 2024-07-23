@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {}
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
+        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj",
         "packagesPath": "C:\\Users\\anas_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\obj\\",
+        "outputPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anas_\\AppData\\Roaming\\NuGet\\NuGet.Config"

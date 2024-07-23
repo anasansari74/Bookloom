@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XaJ46ofDQ3ajBvOuVhP7PjFwnG3Zg0RCo1CQfle1///Xk5zhRjGIk5w5+lFifrJFXxksnc0eIlZ+2l7yQwQQ3Q==",
+  "dgSpecHash": "fyzuNCIVi7BT/L4W3pOfrG9J/Z0MFTkLHtqYTPx5mAHNa9y7ed0qRO/r72VDQ7WXkWf24AEgvSS53F5taDLNMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
+  "projectFilePath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\server\\server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anas_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\anas_\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
