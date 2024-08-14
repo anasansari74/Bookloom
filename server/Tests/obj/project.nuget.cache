@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tOJENXysRFd1LU2FENauajGB11hEqLZzgpLreMuUqt3T2LNsJKuCjS5gFu35gc9tR9H7KGzezMwA6smXbKEc9Q==",
+  "dgSpecHash": "R+GlYvs5vRLTkLEO2GNG8U3cnfYWI0BSPsGb0kT0lyFktnLw7srSxv9kK01EkxJO1lroj48xCzvj5Ulsm5Z+/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
+  "projectFilePath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anas_\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\anas_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -129,7 +129,8 @@
     "C:\\Users\\anas_\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
     "C:\\Users\\anas_\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\anas_\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\anas_\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
+    "C:\\Users\\anas_\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
+    "C:\\Users\\anas_\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.2\\xunit.runner.visualstudio.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }
