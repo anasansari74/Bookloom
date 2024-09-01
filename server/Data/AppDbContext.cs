@@ -16,6 +16,15 @@ namespace Server.Data
         {
         }
 
+        // Optionally override OnConfiguring if not configured in Program.cs
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseNpgsql("YourConnectionStringHere");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
