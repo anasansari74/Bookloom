@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {}
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj": {
+    "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
-        "projectName": "server",
-        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\anas_\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\anas_\\OneDrive\\Desktop\\Projects\\Dot Net Exploration\\Bookloom\\Server\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,23 +40,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.12, )"
             },
-            "Moq": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.18.4, )"
+              "version": "[6.0.12, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.2, )"
             }
           },
           "imports": [
