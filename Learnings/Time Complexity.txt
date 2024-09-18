@@ -1,0 +1,16 @@
+Time Complexity
+
+Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the length of the input. It provides an upper bound on the running time, helping us understand the worst-case scenario.
+
+Time complexity describes how the execution time of an algorithm scales with the size of the input. For example, if we have an algorithm with a time complexity of O(n), it means that if the input size doubles, the time taken roughly doubles as well.
+
+What is O(N) or Big O Notation
+
+Big O notation is used to classify algorithms according to how their run time or space requirements grow as the input size grows. It focuses on the term that grows the fastest as the input size increases and ignores constant factors and lower-order terms.
+
+Big O notation helps us describe the upper bound of an algorithm's running time or space requirements. For instance, an algorithm with O(n^2) complexity means that if the input size doubles, the running time quadruples. It's useful for comparing the efficiency of different algorithms, especially for large inputs.
+
+Common Big O Notations:
+    - O(1)  constant time
+    - O(n)  linear time
+    - O(n^2) quadratic time

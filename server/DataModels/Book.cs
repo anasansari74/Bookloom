@@ -8,3 +8,4 @@ namespace Server.DataModels
         public decimal BookPrice { get; set; }
     }
 }
+ 
